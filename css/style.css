@@ -24,7 +24,7 @@ img{ /* imaage on its own line???? */
     width: 550px;
 }
 div{
-    height: 150px;
+    min-height: 150px;
     padding: 25px;
 }
 #red{
@@ -56,5 +56,7 @@ div{
 footer {
     padding-bottom: 10px;
     padding-right: 10px;
+    padding-left: 0px;
+    padding-top: 0px;
     text-align: center;
 }
